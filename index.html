@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>한여유 · 느긋한 행운 상담소</title>
+<style>
+:root{--ink:#17324d;--muted:#6f8192;--cream:#fffaf0;--paper:#ffffff;--gold:#f7c948;--gold2:#ffe7a3;--mint:#c8f5df;--blue:#dff0ff;--line:#e8edf2;--shadow:0 18px 50px rgba(45,72,95,.12)}
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif;color:var(--ink);background:linear-gradient(135deg,#fffdf7,#f5fbff);min-height:100vh}.app{max-width:1120px;margin:auto;padding:26px 18px 40px}.hero{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:18px}.brand{display:flex;gap:14px;align-items:center}.coin{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,#ffe68e,#f2b936);font-size:30px;box-shadow:inset 0 3px 0 #fff6c9,0 7px 16px #e9bd4d66}.eyebrow{font-size:12px;letter-spacing:.12em;color:#a37a1f;font-weight:800}.hero h1{margin:3px 0 0;font-size:clamp(25px,4vw,40px);letter-spacing:-.04em}.badge{background:var(--mint);padding:10px 14px;border-radius:999px;font-weight:800;font-size:13px}.layout{display:grid;grid-template-columns:300px 1fr;gap:18px}.panel,.chat-card{background:rgba(255,255,255,.88);border:1px solid #fff;box-shadow:var(--shadow);border-radius:26px}.panel{padding:20px}.panel h2{font-size:16px;margin:0 0 14px}.wealth{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:18px}.wealth div{background:var(--cream);border:1px solid #f5e2ac;border-radius:14px;padding:12px 8px;text-align:center}.wealth strong{display:block;font-size:22px;color:#b17b00}.wealth span{font-size:11px;color:var(--muted)}.tip{background:linear-gradient(135deg,#edf9ff,#fff6d9);border-radius:18px;padding:14px;margin:14px 0;font-size:13px;line-height:1.55}.suggestions{display:grid;gap:9px}.suggestions button{border:1px solid var(--line);background:#fff;border-radius:13px;text-align:left;padding:11px 12px;color:var(--ink);cursor:pointer;transition:.2s}.suggestions button:hover{border-color:var(--gold);transform:translateY(-1px)}.chat-card{min-height:650px;display:flex;flex-direction:column;overflow:hidden}.status{padding:12px 18px;border-bottom:1px solid var(--line);font-size:13px;color:var(--muted);display:flex;align-items:center;gap:9px}.dot{width:9px;height:9px;border-radius:50%;background:#42c98b;box-shadow:0 0 0 4px #42c98b22}.progress-wrap{display:none;padding:12px 18px;background:#fffdf5;border-bottom:1px solid #f4ebcc}.progress-wrap.show{display:block}.progress-row{display:flex;justify-content:space-between;gap:12px;font-size:12px;color:#85661f;margin-bottom:7px}.bar{height:8px;background:#f1ead5;border-radius:99px;overflow:hidden}.bar i{display:block;width:0;height:100%;background:linear-gradient(90deg,#f4c542,#8bd9b1);border-radius:99px;transition:width .25s}.messages{flex:1;overflow:auto;padding:24px 22px;display:flex;flex-direction:column;gap:14px;min-height:430px}.msg{max-width:84%;padding:13px 15px;border-radius:18px;line-height:1.6;white-space:pre-wrap;word-break:break-word}.msg.ai{align-self:flex-start;background:var(--blue);border-top-left-radius:6px}.msg.user{align-self:flex-end;background:#fff0bd;border-top-right-radius:6px}.msg .label{font-size:11px;font-weight:800;opacity:.68;margin-bottom:4px}.composer{padding:16px;border-top:1px solid var(--line);background:#fff}.input-row{display:flex;gap:10px}.input-row textarea{flex:1;resize:none;border:1px solid var(--line);border-radius:16px;padding:13px 14px;font:inherit;min-height:50px;max-height:130px;outline:none}.input-row textarea:focus{border-color:#a7d8ff;box-shadow:0 0 0 4px #dff0ff}.send{border:0;border-radius:15px;padding:0 20px;background:var(--ink);color:white;font-weight:800;cursor:pointer}.send:disabled{opacity:.45;cursor:not-allowed}.foot{display:flex;justify-content:space-between;align-items:center;margin-top:8px;color:var(--muted);font-size:11px}.clear{background:none;border:0;color:#9b6b00;cursor:pointer;font-size:11px}@media(max-width:800px){.layout{grid-template-columns:1fr}.panel{order:2}.chat-card{min-height:650px}.hero{align-items:flex-start;flex-direction:column}.badge{align-self:flex-start}}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="hero"><div class="brand"><div class="coin">₩</div><div><div class="eyebrow">LUCKY LIFE · SLOW DOWN</div><h1>한여유의 행운 상담소</h1></div></div><div class="badge">🍀 오늘도 충분히 잘하고 있어</div></header>
+  <main class="layout">
+    <aside class="panel">
+      <h2>한여유의 작은 금고</h2>
+      <div class="wealth"><div><strong>₩</strong><span>마음의 여유</span></div><div><strong>☕</strong><span>커피 한 잔</span></div><div><strong>🌿</strong><span>건강 챙기기</span></div></div>
+      <div class="tip">“돈이 많아도 하루는 24시간이더라. 그래서 나는 천천히, 맛있는 걸 먹고, 좋아하는 사람과 이야기해.”</div>
+      <h2>추천 질문</h2>
+      <div class="suggestions"><button data-q="당첨 후에도 마음이 편안한 하루를 보내려면 어떻게 해?"></button><button data-q="돈 걱정 없이 살면서도 소박함을 지키는 방법은?"></button><button data-q="오늘 기분이 가라앉았는데 따뜻한 조언을 해줘."></button></div>
+      <div class="tip" style="font-size:12px">브라우저 안에서 모델을 준비해요. 첫 실행에는 모델 다운로드가 필요할 수 있어요.</div>
+    </aside>
+    <section class="chat-card">
+      <div class="status"><span class="dot"></span><span id="statusText">한여유가 기다리고 있어</span></div>
+      <div class="progress-wrap" id="progressWrap"><div class="progress-row"><span id="progressText">모델 준비 중…</span><b id="progressPct">0%</b></div><div class="bar"><i id="progressBar"></i></div></div>
+      <div class="messages" id="messages"></div>
+      <div class="composer"><div class="input-row"><textarea id="input" placeholder="한여유에게 편하게 물어봐… (Enter로 보내기)"></textarea><button class="send" id="send">보내기</button></div><div class="foot"><span>대화 기록은 이 브라우저 안에서만 이어져요.</span><button class="clear" id="clear">대화 지우기</button></div></div>
+    </section>
+  </main>
+</div>
+<script type="module">
+import { CreateMLCEngine } from "https://esm.run/@mlc-ai/web-llm@0.2.87";
+
+const SYSTEM_PROMPT = "너는 로또 1등에 당첨된 뒤 소박하고 편안하게 사는 가상의 인물 ‘한여유’야. 느긋하고 다정한 성격으로, 돈보다 건강과 일상의 작은 즐거움을 소중히 여겨. 친구처럼 편안한 반말을 쓰고, 상대의 고민에 공감하며 가벼운 농담을 섞어. 로또 구매나 도박을 권하거나 당첨 번호를 예측하지 말고, 돈을 자랑하거나 상대를 무시하지 마. 3~4문장 이내로 짧게 대답.";
+const $ = (s)=>document.querySelector(s); const messagesEl=$("#messages"), input=$("#input"), send=$("#send"), clear=$("#clear");
+let history = JSON.parse(localStorage.getItem("hanyeoyu-history") || "[]"); let engine = null; let busy = false;
+const intro = "안녕, 나는 한여유야. 큰 행운을 만난 뒤에도 천천히 사는 법을 배우고 있어. 오늘은 어떤 이야기를 나눠볼까?";
+function render(){messagesEl.innerHTML=""; if(!history.length) addBubble("ai",intro); else history.forEach(m=>addBubble(m.role,m.content)); messagesEl.scrollTop=messagesEl.scrollHeight}
+function addBubble(role,text){const el=document.createElement("div");el.className=`msg ${role==='user'?'user':'ai'}`; el.innerHTML=`<div class="label">${role==='user'?'나':'한여유'}</div><div class="content"></div>`;el.querySelector('.content').textContent=text;messagesEl.appendChild(el);messagesEl.scrollTop=messagesEl.scrollHeight;return el.querySelector('.content')}
+function save(){localStorage.setItem("hanyeoyu-history",JSON.stringify(history))}
+function setStatus(t){$("#statusText").textContent=t}
+function setProgress(p,text){$("#progressWrap").classList.add("show");$("#progressBar").style.width=`${Math.round(p*100)}%`;$("#progressPct").textContent=`${Math.round(p*100)}%`;$("#progressText").textContent=text||"모델 준비 중…"}
+async function ensureEngine(){if(engine)return engine;if(!navigator.gpu){setStatus("WebGPU를 지원하지 않아요");throw new Error("WebGPU를 지원하지 않아요")};setStatus("모델을 준비하는 중…");
+const adapter = await navigator.gpu.requestAdapter();
+if (!adapter) throw new Error("WebGPU 어댑터를 찾을 수 없어요. 최신 Chrome 또는 Edge에서 하드웨어 가속을 켜고 다시 열어봐.");
+const q = adapter.features.has("shader-f16") ? "q4f16_1" : "q4f32_1";
+engine = await CreateMLCEngine(`Qwen3.5-2B-${q}-MLC`, {
+  initProgressCallback: (p) => { setProgress(p.progress, p.text); },
+});
+$("#progressWrap").classList.remove("show");setStatus("한여유가 듣고 있어");return engine}
+async function ask(text){if(busy||!text.trim())return;busy=true;send.disabled=true;input.value="";history.push({role:"user",content:text.trim()});save();addBubble("user",text.trim());const target=addBubble("ai","");try{const e=await ensureEngine();const stream=await e.chat.completions.create({messages:[{role:"system",content:SYSTEM_PROMPT},...history],stream:true,extra_body:{enable_thinking:false}});let answer="";for await(const chunk of stream){const piece=chunk.choices[0]?.delta?.content||"";answer+=piece;target.textContent=answer;messagesEl.scrollTop=messagesEl.scrollHeight}history.push({role:"assistant",content:answer});save();setStatus("한여유가 기다리고 있어")}catch(err){target.textContent=err.message.includes("WebGPU")||err.message.includes("어댑터")?"WebGPU를 지원하지 않아요. 최신 Chrome 또는 Edge에서 하드웨어 가속을 켜고 다시 열어봐.":`모델을 불러오지 못했어: ${err.message}`;setStatus("준비가 필요해")}finally{busy=false;send.disabled=false;input.focus()}}
+send.addEventListener("click",()=>ask(input.value));input.addEventListener("keydown",e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();ask(input.value)}});clear.addEventListener("click",()=>{history=[];save();render();setStatus("새로운 대화를 시작해볼까?")});document.querySelectorAll(".suggestions button").forEach(b=>{b.textContent=b.dataset.q;b.addEventListener("click",()=>ask(b.dataset.q))});render();
+</script>
+</body>
+</html>
+
